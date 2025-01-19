@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+	</head>
+	<body>
+		<div class='calculator'>
+			<section class='calculator__hints'>
+				<h2>Example operations:</h2>
+				<ul>
+					<li>2 + 2 ---> expected 4</li>
+					<li>2 - 2 ---> expected 0</li>
+					<li>2 * 2 ---> expected 4</li>
+					<li>2 : 2 ---> expected 1</li>
+					<li>-2 ---> expected -2</li>
+					<li>2 ^ 2 ---> expected 4</li>
+					<li>sin 2 ---> expected 0.90...</li>
+					<li>cos 2 ---> expected -0.41...</li>
+					<li>2 * ( 2 + 2 ) --> expected 8</li>
+					<li>π ---> expected 3.14...</li>
+					<li>2 * √ 2 ---> expected 2.82...</li>
+					<li>2 ! ---> expected 2</li>
+					<li>log 2 2 ---> expected 1</li>
+					<li>2 % ---> expected 0.02</li>
+				</ul>
+			</section>
+			<section class='calculator__main'>
+				<div class='output-container'>
+					<p>Result:</p>
+					<output></output>
+				</div>
+				<div class='operation-container'>
+					<p>Operation:</p>
+					<input disabled id='expression'> </input>
+				</div>
+				<table class='expressions-container''>
+						<tbody>
+						<tr>
+							<td><button data-value="+">+</button></td>
+							<td><button data-value="-">-</button></td>
+							<td><button data-value="*">*</button></td>
+							<td><button data-value=":">:</button></td>
+							<td><button data-value="+/-">+/-</button></td>
+							<td><button data-value="remove"><span class='arrow'></div></button></td>
+							<td><button data-value="C">C</button></td>
+						</tr>
+						<tr>
+							<td><button data-value="1">1</button></td>
+							<td><button data-value="2">2</button></td>
+							<td><button data-value="3">3</button></td>
+							<td><button data-value="sin">sin</button></td>
+							<td><button data-value="cos">cos</button></td>
+							<td><button data-value="(">(</button></td>
+							<td><button data-value=")">)</button></td>
+						</tr>
+						<tr>
+							<td><button data-value="4">4</button></td>
+							<td><button data-value="5">5</button></td>
+							<td><button data-value="6">6</button></td>
+							<td><button data-value=".">,</button></td>
+							<td><button data-value="π">π</button></td>
+							<td><button data-value="^">^</button></td>
+							<td><button data-value="√">√</button></td>
+						</tr>
+						<tr>
+							<td><button data-value="7">7</button></td>
+							<td><button data-value="8">8</button></td>
+							<td><button data-value="9">9</button></td>
+							<td ><button data-value="0">0</button></td>
+							<td><button data-value="log">log</button></td>
+							<td><button data-value="%">%</button></td>
+							<td><button data-value="!">!</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>	
+		</div>
+	</body>
+</html>
